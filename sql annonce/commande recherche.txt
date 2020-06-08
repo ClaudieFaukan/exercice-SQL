@@ -1,0 +1,17 @@
+Selection des annonces d'un utilisateur identifier par le nom:
+
+
+SELECT * FROM utilisateur INNER JOIN annonce
+WHERE utilisateur.id_user=annonce.id_user
+AND nom ='Luc';
+
+
+
+
+Selection des annonces d'une rubrique:
+
+SELECT * FROM rubrique INNER JOIN annonce
+WHERE rubrique.id_rubrique=annonce.id_rubrique
+AND libelle ='Informatique';
+
+inserer une annonce incrementer
